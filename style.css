@@ -223,7 +223,7 @@ button:hover {
   align-items: center;
   background-color: #4c64ff;
   color: white;
-  padding: 60px;
+  padding: 85px;
 }
 
 .late-admission h2 {
@@ -288,7 +288,7 @@ button:hover {
 }
 
 .student-reviews {
-  padding: 75px;
+  padding: 85px;
   background-color: #F8F9F9;
   padding-bottom: 70px;
 }
@@ -412,7 +412,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 60px;
+  padding: 85px;
 }
 
 .footer-background-text h3 {
