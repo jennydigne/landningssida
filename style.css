@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "barlow";
+}
+
+header {
+  background-image: url(images/chas-academy-hero-homepage.jpg);
+  background-size: cover;
+  height: 800px;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  margin-top: 10px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 500;
+  font-family: "barlow condensed";
+  line-height: 110%;
+}
+
+.hero h4 {
+  line-height: 1.5;
+  margin-top: 60px;
+}
+
+.arrow {
+  background-color: #4c64ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.blue-apply-btn {
+  background-color: #4c64ff;
+  color: white;
+  height: 30px;
+  margin-top: 25px;
+  border-radius: 25px;
+  padding: 8px 20px 25px;
+  border: none;
+  font-weight: 600;
+}
+
+.blue-apply-btn:hover {
+  background-color: transparent;
+  color: #4c64ff;
+  border: 1px solid #4c64ff;
+}
+
+.black-apply-btn, .white-about-btn {
+  border-radius: 25px;
+  padding: 15px 25px;
+  margin-top: 50px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.black-apply-btn {
+  background-color: black;
+  color: white;
+  margin-right: 35px;
+}
+
+.black-apply-btn:hover {
+  color: black;
+  background-color: #F8F9F9;
+}
+
+.white-about-btn {
+  background-color: #F8F9F9;
+}
+
+.white-about-btn:hover {
+  background-color: black;
+  color: white;
+} 
+
+button:hover {
+  cursor: pointer;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  background-color: #F8F9F9;
+  padding: 85px;
+}
+
+.about-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.about-text h2 {
+  font-family: "barlow condensed";
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.about-text h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.girl-outside {
+  height: 450px;
+  width: auto;
+}
+
+.programs {
+  padding: 85px;
+}
+
+.programs-text {
+  width: 50%
+}
+
+.programs-text h2 {
+  font-family: "barlow condensed";
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.programs-text h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.programs-text p {
+ margin-top: 30px;
+ margin-bottom: 25px;
+ font-size: 18px;
+}
+
+.programs-links {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 80px 80px 80px;
+  justify-content: space-between;
+  row-gap: 20px;
+  margin-top: 60px;
+}
+
+.program-link {
+  display: flex;
+  background-color: #F8F9F9;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.program-link:hover {
+  border: 1px solid black;
+} 
+
+.small-img {
+  height: 50px;
+  width: auto;
+}
+
+.readmore-btn {
+  border-radius: 25px;
+  padding: 15px 25px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  border: none;
+  font-weight: 600;
+}
+
+.readmore-btn:hover {
+  background-color: #F8F9F9;
+  color: black;
+  border: 1px solid black;
+}
+
+.late-admission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #4c64ff;
+  color: white;
+  padding: 60px;
+}
+
+.late-admission h2 {
+  font-family: "barlow condensed";
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.late-admission h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.blue-video {
+  width: 500px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+.late-admission p {
+  font-size: 18px;
+}
+
+.blue-howto-btn, .white-apply-btn {
+  border-radius: 25px;
+  padding: 15px 25px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.blue-howto-btn {
+  background-color: #4c64ff;
+  color: white;
+  margin-right: 20px;
+  border: 1px solid white;
+  box-shadow: none;
+}
+
+.blue-howto-btn:hover {
+  background-color: white;
+  color: #4c64ff;
+}
+
+.white-apply-btn {
+  background-color: white;
+  color: #4c64ff;
+  border: none; 
+}
+
+.white-apply-btn:hover {
+  background-color: #4c64ff;
+  color: white;
+  border: 1px solid white;
+}
+
+.student-reviews h3 {
+  text-align: center;
+}
+
+.student-reviews {
+  padding: 75px;
+  background-color: #F8F9F9;
+  padding-bottom: 70px;
+}
+
+.students {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 700px 750px;
+  gap: 20px;
+}
+
+.student-image {
+  height: 250px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.students p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.students h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.student-reviews h3 {
+  font-family: "barlow condensed";
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 75px;
+}
+
+footer {
+  background-color: #F8F9F9;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  padding-bottom: 20px; 
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 2;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.contact {
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.bold {
+  font-weight: 500; 
+}
+
+.footer-img {
+  height: 460px;
+  width: 430px;
+  margin-top: -40px;
+}
+
+.canvas {
+  height: 15px;
+}
+
+.canvas-btn {
+  border: 1px solid black;
+  padding: 8px 50px 5px;
+  border-radius: 15px;
+  background-color: #F8F9F9;
+  margin-top: 40px;
+}
+
+.copy {
+  background-color: #D4D4D4;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer-background {
+  position: relative;
+  margin-right: 30px;
+}
+
+.footer-background-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 60px;
+}
+
+.footer-background-text h3 {
+  font-size: 40px;
+  font-family: "barlow condensed";
+  font-weight: 500;
+}
+
+.apply-now-btn {
+  border-radius: 25px;
+  padding: 15px 40px;
+  border: 1px solid black;
+  margin-top: 45px;
+  background-color: #6ec3e4;
+  font-weight: 600;
+}
+
+.apply-now-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.logo-social-media {
+  padding: 20px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.logo-social-media p {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  height: 160px;
+  margin-bottom: 50px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-links img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
